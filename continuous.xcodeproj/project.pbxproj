@@ -37,8 +37,6 @@
 		772CE9941BBC722E00E27437 /* continuousTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = continuousTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		772CE9981BBC722E00E27437 /* continuousTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = continuousTests.swift; sourceTree = "<group>"; };
 		772CE99A1BBC722E00E27437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		772CE9A31BBC722E00E27437 /* continuousUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = continuousUITests.swift; sourceTree = "<group>"; };
-		772CE9A51BBC722E00E27437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		772CE9B11BBC740C00E27437 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +64,6 @@
 				772CE9B11BBC740C00E27437 /* .travis.yml */,
 				772CE9821BBC722E00E27437 /* continuous */,
 				772CE9971BBC722E00E27437 /* continuousTests */,
-				772CE9A21BBC722E00E27437 /* continuousUITests */,
 				772CE9811BBC722E00E27437 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,15 +97,6 @@
 				772CE99A1BBC722E00E27437 /* Info.plist */,
 			);
 			path = continuousTests;
-			sourceTree = "<group>";
-		};
-		772CE9A21BBC722E00E27437 /* continuousUITests */ = {
-			isa = PBXGroup;
-			children = (
-				772CE9A31BBC722E00E27437 /* continuousUITests.swift */,
-				772CE9A51BBC722E00E27437 /* Info.plist */,
-			);
-			path = continuousUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
