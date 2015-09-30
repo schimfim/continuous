@@ -13,19 +13,11 @@
 		772CE98B1BBC722E00E27437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772CE98A1BBC722E00E27437 /* Assets.xcassets */; };
 		772CE98E1BBC722E00E27437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772CE98C1BBC722E00E27437 /* LaunchScreen.storyboard */; };
 		772CE9991BBC722E00E27437 /* continuousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772CE9981BBC722E00E27437 /* continuousTests.swift */; };
-		772CE9A41BBC722E00E27437 /* continuousUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772CE9A31BBC722E00E27437 /* continuousUITests.swift */; };
 		772CE9B21BBC740C00E27437 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 772CE9B11BBC740C00E27437 /* .travis.yml */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		772CE9951BBC722E00E27437 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 772CE9781BBC722E00E27437 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 772CE97F1BBC722E00E27437;
-			remoteInfo = continuous;
-		};
-		772CE9A01BBC722E00E27437 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 772CE9781BBC722E00E27437 /* Project object */;
 			proxyType = 1;
@@ -45,7 +37,6 @@
 		772CE9941BBC722E00E27437 /* continuousTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = continuousTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		772CE9981BBC722E00E27437 /* continuousTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = continuousTests.swift; sourceTree = "<group>"; };
 		772CE99A1BBC722E00E27437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		772CE99F1BBC722E00E27437 /* continuousUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = continuousUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		772CE9A31BBC722E00E27437 /* continuousUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = continuousUITests.swift; sourceTree = "<group>"; };
 		772CE9A51BBC722E00E27437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		772CE9B11BBC740C00E27437 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
@@ -60,13 +51,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		772CE9911BBC722E00E27437 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		772CE99C1BBC722E00E27437 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -92,7 +76,6 @@
 			children = (
 				772CE9801BBC722E00E27437 /* continuous.app */,
 				772CE9941BBC722E00E27437 /* continuousTests.xctest */,
-				772CE99F1BBC722E00E27437 /* continuousUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,24 +149,6 @@
 			productReference = 772CE9941BBC722E00E27437 /* continuousTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		772CE99E1BBC722E00E27437 /* continuousUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 772CE9AE1BBC722E00E27437 /* Build configuration list for PBXNativeTarget "continuousUITests" */;
-			buildPhases = (
-				772CE99B1BBC722E00E27437 /* Sources */,
-				772CE99C1BBC722E00E27437 /* Frameworks */,
-				772CE99D1BBC722E00E27437 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				772CE9A11BBC722E00E27437 /* PBXTargetDependency */,
-			);
-			name = continuousUITests;
-			productName = continuousUITests;
-			productReference = 772CE99F1BBC722E00E27437 /* continuousUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +162,6 @@
 						CreatedOnToolsVersion = 7.0;
 					};
 					772CE9931BBC722E00E27437 = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 772CE97F1BBC722E00E27437;
-					};
-					772CE99E1BBC722E00E27437 = {
 						CreatedOnToolsVersion = 7.0;
 						TestTargetID = 772CE97F1BBC722E00E27437;
 					};
@@ -221,7 +182,6 @@
 			targets = (
 				772CE97F1BBC722E00E27437 /* continuous */,
 				772CE9931BBC722E00E27437 /* continuousTests */,
-				772CE99E1BBC722E00E27437 /* continuousUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,13 +199,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		772CE9921BBC722E00E27437 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		772CE99D1BBC722E00E27437 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,14 +225,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		772CE99B1BBC722E00E27437 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				772CE9A41BBC722E00E27437 /* continuousUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -287,11 +232,6 @@
 			isa = PBXTargetDependency;
 			target = 772CE97F1BBC722E00E27437 /* continuous */;
 			targetProxy = 772CE9951BBC722E00E27437 /* PBXContainerItemProxy */;
-		};
-		772CE9A11BBC722E00E27437 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 772CE97F1BBC722E00E27437 /* continuous */;
-			targetProxy = 772CE9A01BBC722E00E27437 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -444,30 +384,6 @@
 			};
 			name = Release;
 		};
-		772CE9AF1BBC722E00E27437 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = continuousUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.comutr.continuousUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = continuous;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		772CE9B01BBC722E00E27437 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = continuousUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.comutr.continuousUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = continuous;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -493,14 +409,6 @@
 			buildConfigurations = (
 				772CE9AC1BBC722E00E27437 /* Debug */,
 				772CE9AD1BBC722E00E27437 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		772CE9AE1BBC722E00E27437 /* Build configuration list for PBXNativeTarget "continuousUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				772CE9AF1BBC722E00E27437 /* Debug */,
-				772CE9B01BBC722E00E27437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
