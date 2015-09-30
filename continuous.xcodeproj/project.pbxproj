@@ -14,6 +14,7 @@
 		772CE98E1BBC722E00E27437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772CE98C1BBC722E00E27437 /* LaunchScreen.storyboard */; };
 		772CE9991BBC722E00E27437 /* continuousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772CE9981BBC722E00E27437 /* continuousTests.swift */; };
 		772CE9A41BBC722E00E27437 /* continuousUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772CE9A31BBC722E00E27437 /* continuousUITests.swift */; };
+		772CE9B21BBC740C00E27437 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 772CE9B11BBC740C00E27437 /* .travis.yml */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		772CE99F1BBC722E00E27437 /* continuousUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = continuousUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		772CE9A31BBC722E00E27437 /* continuousUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = continuousUITests.swift; sourceTree = "<group>"; };
 		772CE9A51BBC722E00E27437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		772CE9B11BBC740C00E27437 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		772CE9771BBC722E00E27437 = {
 			isa = PBXGroup;
 			children = (
+				772CE9B11BBC740C00E27437 /* .travis.yml */,
 				772CE9821BBC722E00E27437 /* continuous */,
 				772CE9971BBC722E00E27437 /* continuousTests */,
 				772CE9A21BBC722E00E27437 /* continuousUITests */,
@@ -230,6 +233,7 @@
 			files = (
 				772CE98E1BBC722E00E27437 /* LaunchScreen.storyboard in Resources */,
 				772CE98B1BBC722E00E27437 /* Assets.xcassets in Resources */,
+				772CE9B21BBC740C00E27437 /* .travis.yml in Resources */,
 				772CE9891BBC722E00E27437 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
