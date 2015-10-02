@@ -28,7 +28,7 @@ platform :ios do
     
     # increment_build_number
 
-    gym(scheme: "continuous", sdk: "iphonesimulator9.0") # Build your app - more options available
+    gym(scheme: "continuous") # Build your app - more options available
 
     # xctool # run the tests of your app
   end
