@@ -14,6 +14,7 @@
 		772CE98E1BBC722E00E27437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772CE98C1BBC722E00E27437 /* LaunchScreen.storyboard */; };
 		772CE9991BBC722E00E27437 /* continuousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772CE9981BBC722E00E27437 /* continuousTests.swift */; };
 		772CE9B21BBC740C00E27437 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 772CE9B11BBC740C00E27437 /* .travis.yml */; settings = {ASSET_TAGS = (); }; };
+		772FB1681BBF21F10099EF3D /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = 772FB1671BBF21F10099EF3D /* fastlane */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		772CE9981BBC722E00E27437 /* continuousTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = continuousTests.swift; sourceTree = "<group>"; };
 		772CE99A1BBC722E00E27437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		772CE9B11BBC740C00E27437 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		772FB1671BBF21F10099EF3D /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		772CE9771BBC722E00E27437 = {
 			isa = PBXGroup;
 			children = (
+				772FB1671BBF21F10099EF3D /* fastlane */,
 				772CE9B11BBC740C00E27437 /* .travis.yml */,
 				772CE9821BBC722E00E27437 /* continuous */,
 				772CE9971BBC722E00E27437 /* continuousTests */,
@@ -183,6 +186,7 @@
 				772CE98B1BBC722E00E27437 /* Assets.xcassets in Resources */,
 				772CE9B21BBC740C00E27437 /* .travis.yml in Resources */,
 				772CE9891BBC722E00E27437 /* Main.storyboard in Resources */,
+				772FB1681BBF21F10099EF3D /* fastlane in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +395,7 @@
 				772CE9AA1BBC722E00E27437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		772CE9AB1BBC722E00E27437 /* Build configuration list for PBXNativeTarget "continuousTests" */ = {
 			isa = XCConfigurationList;
@@ -399,6 +404,7 @@
 				772CE9AD1BBC722E00E27437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
