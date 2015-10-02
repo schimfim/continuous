@@ -30,7 +30,8 @@ platform :ios do
 
     gym(scheme: "continuous") # Build your app - more options available
 
-    # xctool # run the tests of your app
+    #xctool -project continuous.xcodeproj -scheme continuous -sdk iphonesimulator9.0 build
+    #xctool(project: "continuous.xcodeproj", scheme: "continuous", sdk:"iphonesimulator9.0")
   end
 
   desc "Runs all the tests"
