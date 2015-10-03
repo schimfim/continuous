@@ -14,7 +14,14 @@
 		772CE98E1BBC722E00E27437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772CE98C1BBC722E00E27437 /* LaunchScreen.storyboard */; };
 		772CE9991BBC722E00E27437 /* continuousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772CE9981BBC722E00E27437 /* continuousTests.swift */; };
 		772CE9B21BBC740C00E27437 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 772CE9B11BBC740C00E27437 /* .travis.yml */; settings = {ASSET_TAGS = (); }; };
-		772FB1681BBF21F10099EF3D /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = 772FB1671BBF21F10099EF3D /* fastlane */; settings = {ASSET_TAGS = (); }; };
+		776D07741BC074EB00633CB0 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = 776D076A1BC074EB00633CB0 /* Appfile */; settings = {ASSET_TAGS = (); }; };
+		776D07751BC074EB00633CB0 /* Deliverfile in Resources */ = {isa = PBXBuildFile; fileRef = 776D076B1BC074EB00633CB0 /* Deliverfile */; settings = {ASSET_TAGS = (); }; };
+		776D07761BC074EB00633CB0 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 776D076C1BC074EB00633CB0 /* Fastfile */; settings = {ASSET_TAGS = (); }; };
+		776D07771BC074EB00633CB0 /* report.xml in Resources */ = {isa = PBXBuildFile; fileRef = 776D076D1BC074EB00633CB0 /* report.xml */; settings = {ASSET_TAGS = (); }; };
+		776D07781BC074EB00633CB0 /* Snapfile in Resources */ = {isa = PBXBuildFile; fileRef = 776D07701BC074EB00633CB0 /* Snapfile */; settings = {ASSET_TAGS = (); }; };
+		776D07791BC074EB00633CB0 /* snapshot-iPad.js in Resources */ = {isa = PBXBuildFile; fileRef = 776D07711BC074EB00633CB0 /* snapshot-iPad.js */; settings = {ASSET_TAGS = (); }; };
+		776D077A1BC074EB00633CB0 /* snapshot.js in Resources */ = {isa = PBXBuildFile; fileRef = 776D07721BC074EB00633CB0 /* snapshot.js */; settings = {ASSET_TAGS = (); }; };
+		776D077B1BC074EB00633CB0 /* SnapshotHelper.js in Resources */ = {isa = PBXBuildFile; fileRef = 776D07731BC074EB00633CB0 /* SnapshotHelper.js */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +46,14 @@
 		772CE9981BBC722E00E27437 /* continuousTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = continuousTests.swift; sourceTree = "<group>"; };
 		772CE99A1BBC722E00E27437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		772CE9B11BBC740C00E27437 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
-		772FB1671BBF21F10099EF3D /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = "<group>"; };
+		776D076A1BC074EB00633CB0 /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
+		776D076B1BC074EB00633CB0 /* Deliverfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Deliverfile; sourceTree = "<group>"; };
+		776D076C1BC074EB00633CB0 /* Fastfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = Fastfile; sourceTree = "<group>"; };
+		776D076D1BC074EB00633CB0 /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
+		776D07701BC074EB00633CB0 /* Snapfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snapfile; sourceTree = "<group>"; };
+		776D07711BC074EB00633CB0 /* snapshot-iPad.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "snapshot-iPad.js"; sourceTree = "<group>"; };
+		776D07721BC074EB00633CB0 /* snapshot.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = snapshot.js; sourceTree = "<group>"; };
+		776D07731BC074EB00633CB0 /* SnapshotHelper.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SnapshotHelper.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +77,7 @@
 		772CE9771BBC722E00E27437 = {
 			isa = PBXGroup;
 			children = (
-				772FB1671BBF21F10099EF3D /* fastlane */,
+				776D07681BC074EB00633CB0 /* fastlane */,
 				772CE9B11BBC740C00E27437 /* .travis.yml */,
 				772CE9821BBC722E00E27437 /* continuous */,
 				772CE9971BBC722E00E27437 /* continuousTests */,
@@ -100,6 +114,45 @@
 				772CE99A1BBC722E00E27437 /* Info.plist */,
 			);
 			path = continuousTests;
+			sourceTree = "<group>";
+		};
+		776D07681BC074EB00633CB0 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				776D07691BC074EB00633CB0 /* actions */,
+				776D076A1BC074EB00633CB0 /* Appfile */,
+				776D076B1BC074EB00633CB0 /* Deliverfile */,
+				776D076C1BC074EB00633CB0 /* Fastfile */,
+				776D076D1BC074EB00633CB0 /* report.xml */,
+				776D076E1BC074EB00633CB0 /* screenshots */,
+				776D07701BC074EB00633CB0 /* Snapfile */,
+				776D07711BC074EB00633CB0 /* snapshot-iPad.js */,
+				776D07721BC074EB00633CB0 /* snapshot.js */,
+				776D07731BC074EB00633CB0 /* SnapshotHelper.js */,
+			);
+			path = fastlane;
+			sourceTree = "<group>";
+		};
+		776D07691BC074EB00633CB0 /* actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = actions;
+			sourceTree = "<group>";
+		};
+		776D076E1BC074EB00633CB0 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				776D076F1BC074EB00633CB0 /* en-US */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
+		776D076F1BC074EB00633CB0 /* en-US */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "en-US";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,11 +235,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				776D077B1BC074EB00633CB0 /* SnapshotHelper.js in Resources */,
+				776D07781BC074EB00633CB0 /* Snapfile in Resources */,
 				772CE98E1BBC722E00E27437 /* LaunchScreen.storyboard in Resources */,
+				776D07761BC074EB00633CB0 /* Fastfile in Resources */,
+				776D07741BC074EB00633CB0 /* Appfile in Resources */,
+				776D07751BC074EB00633CB0 /* Deliverfile in Resources */,
 				772CE98B1BBC722E00E27437 /* Assets.xcassets in Resources */,
+				776D07791BC074EB00633CB0 /* snapshot-iPad.js in Resources */,
+				776D077A1BC074EB00633CB0 /* snapshot.js in Resources */,
+				776D07771BC074EB00633CB0 /* report.xml in Resources */,
 				772CE9B21BBC740C00E27437 /* .travis.yml in Resources */,
 				772CE9891BBC722E00E27437 /* Main.storyboard in Resources */,
-				772FB1681BBF21F10099EF3D /* fastlane in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

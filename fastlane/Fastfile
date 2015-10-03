@@ -28,10 +28,15 @@ platform :ios do
     
     # increment_build_number
 
-    gym(scheme: "continuous") # Build your app - more options available
+    # gym(scheme: "continuous") # Build your app - more options available
 
-    #xctool -project continuous.xcodeproj -scheme continuous -sdk iphonesimulator9.0 build
-    #xctool(project: "continuous.xcodeproj", scheme: "continuous", sdk:"iphonesimulator9.0")
+    xctool :build, [
+        "--project", "'continuous.xcodeproj'",
+        "--scheme", "'continuous'",
+        "--configuration", "Debug",
+        "--sdk", "iphonesimulator",
+        "--arch", "i386"
+    ].join(" ")
   end
 
   desc "Runs all the tests"
