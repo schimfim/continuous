@@ -30,7 +30,7 @@ platform :ios do
 
     # gym(scheme: "continuous") # Build your app - more options available
 
-    xctool :build, [
+    xctool :test, [
         "--project", "'continuous.xcodeproj'",
         "--scheme", "'continuous'",
         "--configuration", "Debug",
