@@ -50,7 +50,7 @@
 		776D076B1BC074EB00633CB0 /* Deliverfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Deliverfile; sourceTree = "<group>"; };
 		776D076C1BC074EB00633CB0 /* Fastfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = Fastfile; sourceTree = "<group>"; };
 		776D076D1BC074EB00633CB0 /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
-		776D07701BC074EB00633CB0 /* Snapfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snapfile; sourceTree = "<group>"; };
+		776D07701BC074EB00633CB0 /* Snapfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = Snapfile; sourceTree = "<group>"; };
 		776D07711BC074EB00633CB0 /* snapshot-iPad.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "snapshot-iPad.js"; sourceTree = "<group>"; };
 		776D07721BC074EB00633CB0 /* snapshot.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = snapshot.js; sourceTree = "<group>"; };
 		776D07731BC074EB00633CB0 /* SnapshotHelper.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SnapshotHelper.js; sourceTree = "<group>"; };
