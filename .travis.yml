@@ -9,4 +9,4 @@ script:
   - fastlane ios smoketest
 
 after_success:
-  - ls -l screenshots/
+  - ls -l fastlane/screenshots/
