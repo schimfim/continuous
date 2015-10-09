@@ -7,3 +7,6 @@ xcode_sdk: iphonesimulator9.0
 
 script:
   - python -c 'print "Hello"'
+
+after_success:
+  - ls -la
