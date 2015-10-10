@@ -6,8 +6,10 @@ xcode_sdk: iphonesimulator9.0
 install:
 - pip install dropbox
 script:
-- fastlane ios smoketest
-- python ./scripts/dboxupload.py $DBOX_TOKEN fastlane/screenshots screenshots
+- python --version
+- pip --version
+#- fastlane ios smoketest
+#- python ./scripts/dboxupload.py $DBOX_TOKEN fastlane/screenshots screenshots
 env:
   global:
     secure: pvaqDmafC/PB4sfpE23mFHeB7rB/uIZhIGhPP1fIV2MKz7+45xLpNa6HU2y0CXDFI6iY6LzK3dmXScjXRcbq/9gVvMkpYzjNd4kD78vnE27539OkFCI4xubnN75NfzVDiXkD2xdWPwLavptj/AxStg7m5dzm5lObdR5N87pKoiN89Snmlsx3F0h9mRPOAqIJyIYKhAvlXJ+IEeoGSVCPAp1VYRHfFp9tasJMinSOow6QkNZjOjZv0ZGUbgBKno9HwCVRc5RjYpL4cpE/yb/OXOLnJ+Tk/eB2JGZ5DHKP985NRwzxu251/pjSnaJx/sZHfVVwEIL9H7ETOqjV4FwI46A2RcTGqQjE+O972n3gmJ2sYAEuuB1xeP3YLFzJNvmytPq3PX2qEe1JhjhnJbGMamiyPhMwZ2VMj78/Yp5FLIg1uOzyfRlOmHODJMCvWn35eY08hs6XBV6tSlWVQv6GuVznI3ow4pnEAJ0jkjyRN43z7w2KDiO4R0K6kvYKeE0hi2xV0M9VMYz6bNm0846QF8q91RT+xt/W0Ee0xNeBMUL18Mv0K1du77bNxeVWWChsWjctidfBMP28je50zGnIQYJM7MFHIIw4HmNH9sX5ML3KWGa0mZr6SAjP/kJ/LU/BUlCvhzY6ZFZtw09aXQxTHW1kF1/XM2SqDdU+WUfhxkU=
