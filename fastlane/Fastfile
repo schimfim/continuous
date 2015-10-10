@@ -30,7 +30,12 @@ platform :ios do
 
     # gym(scheme: "continuous") # Build your app - more options available
 
-    xctool :test, [
+    
+  end
+  
+  desc "Quick compile"
+  lane :compile do
+  	xctool :test, [
         "--project", "'continuous.xcodeproj'",
         "--scheme", "'continuous'",
         "--configuration", "Debug",
@@ -39,9 +44,10 @@ platform :ios do
     ].join(" ")
   end
 
-  desc "Runs all the tests"
-  lane :test do
-  snapshot
+
+  desc "Run smoke tests"
+  lane :smoketest do
+  	snapshot
   end
 
   desc "Submit a new Beta Build to Apple TestFlight"
