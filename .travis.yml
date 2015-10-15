@@ -1,4 +1,4 @@
-# I'm on smoketest
+# I'm on smoketest branch
 language: objective-c
 osx_image: xcode7
 xcode_project: continuous.xcodeproj
